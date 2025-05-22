@@ -3,11 +3,6 @@
 
 A multilingual **Language Detector AI** that identifies the language of a given text input using state-of-the-art transformer models. This project includes both a trained model and a full-stack deployment using **Flask (backend)** and **React (frontend)**.
 
-## 🚀 Demo
-
-👉 Try it out on Google Colab:  
-**[Open in Colab](https://colab.research.google.com/drive/1dMc-W7kDWL0Z3flCD3yDFksWftqVDiMw?usp=sharing)**
-
 ## 🧠 Model Overview
 
 This project leverages the **XLM-RoBERTa** transformer — a powerful multilingual model by Facebook AI — fine-tuned to classify text into its corresponding language. It supports a wide variety of languages and can be easily extended for more.
@@ -100,22 +95,3 @@ language-classification/
 | "¿Cómo estás?"             | Spanish 🇪🇸         |
 
 ---
-
-## 🛠️ TODO / Future Work
-- [ ] Add Docker support  
-- [ ] Add more languages  
-- [ ] Deploy to HuggingFace Spaces / Vercel  
-- [ ] Add confidence score to predictions
-
----
-
-## 🙌 Credits
-- Model: [XLM-RoBERTa by Facebook AI](https://huggingface.co/xlm-roberta-base)  
-- Training via [Google Colab](https://colab.research.google.com/drive/1dMc-W7kDWL0Z3flCD3yDFksWftqVDiMw?usp=sharing)
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.  
-Feel free to fork, use, and improve it!
